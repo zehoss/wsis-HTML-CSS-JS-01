@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wypożyczalnia samochodów "Wypcar"</title>
+</head>
+<body>
+
+<img src="images/header-small.png" alt="Example image"/>
+
+<h2>Formularz kontaktowy</h2>
+
+<form action="mailto:k.wezowski@gmail.com" method="GET">
+
+    <input type="text" name="imie_nazwisko" placeholder="Imię i nazwisko"/>
+
+    <textarea name="wiadomosc" cols="50" rows="3"></textarea>
+
+    <select name="cars">
+        <option value="fiat">Fiat</option>
+        <option value="bmw">BMW</option>
+        <option value="subaru">Subaru</option>
+    </select>
+
+    <input type="checkbox" name="ubezpieczenie"> Dodatkowe ubezpieczenie
+
+    <input type="radio" name="limit" value="300" checked> 300 km
+    <input type="radio" name="limit" value="500"> 500 km
+    <input type="radio" name="limit" value="800"> 800 km
+
+    <button type="submit">Wyślij</button>
+</form>
+
+
+</body>
+</html>
